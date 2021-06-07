@@ -50,7 +50,7 @@ public final class NetworkUtils {
      * you can do so by setting the FORECAST_BASE_URL to STATIC_WEATHER_URL below.
      */
     private static final String DYNAMIC_WEATHER_URL =
-            "http://api.openweathermap.org/data/2.5/forecast?q=agra&appid=1c85453bde692f2cf9558da3d9ee631b";
+            "http://api.openweathermap.org/data/2.5/forecast?";
 
     private static final String api=BuildConfig.API_KEY ;
 
