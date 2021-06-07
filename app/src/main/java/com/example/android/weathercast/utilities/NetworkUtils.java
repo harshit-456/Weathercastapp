@@ -19,6 +19,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
+import com.example.android.weathercast.BuildConfig;
 import com.example.android.weathercast.data.WeatherCastPreferences;
 
 import java.io.IOException;
@@ -50,7 +51,8 @@ public final class NetworkUtils {
      */
     private static final String DYNAMIC_WEATHER_URL =
             "http://api.openweathermap.org/data/2.5/forecast?q=agra&appid=1c85453bde692f2cf9558da3d9ee631b";
-private static final String api="1c85453bde692f2cf9558da3d9ee631b";
+
+    private static final String api=BuildConfig.API_KEY ;
 
     private static final String FORECAST_BASE_URL = DYNAMIC_WEATHER_URL;
 
